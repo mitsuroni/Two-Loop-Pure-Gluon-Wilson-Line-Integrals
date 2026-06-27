@@ -13,18 +13,18 @@ Shared 2026-06-27 with collaborators for verification and CAS evaluation.
 
 ## Classification
 
-| # | ID | Gluons | Edges | $x$-dim | $\alpha$-dim | Type |
-|---|-----|--------|-------|---------|--------------|------|
-| 1 | 2g1 | 2 | 3,3–4,4 | 4 | — | double on adjacent pair |
-| 2 | 2g2 | 2 | 2,3–3,4 | 4 | — | adjacent chain |
-| 3 | 2g3 | 2 | 2,3–4,4 | 4 | — | mixed |
-| 4 | 2g4 | 2 | 1,1–3,3 | 4 | — | double opposite |
-| 5 | 2g5 | 2 | 1,3–3,4 | 4 | — | mixed |
-| 6 | 2g6 | 2 | 1,2–3,4 | 4 | — | one per edge |
-| 7 | 3v1 | 3 | 1,3,4 | 3 | 3 | TGV non-degenerate |
-| 8 | 3v2 | 3 | 1,3,3 | 3 | 3 | TGV Δ₂₃=0 |
-| 9 | 3v3 | 3 | 3,4,4 | 3 | 3 | TGV Δ₂₃=0 |
-| 10 | 3v4 | 3 | 3,3,4 | 3 | 3 | TGV Δ₁₂=0 |
+| # | ID | Diagram | Gluons | Edges | $x$-dim | $\alpha$-dim | Type |
+|---|-----|---------|--------|-------|---------|--------------|------|
+| 1 | 2g1 | ![](diagrams/2g1_double_adjacent.png) | 2 | 3,3–4,4 | 4 | — | double on adjacent pair |
+| 2 | 2g2 | ![](diagrams/2g2_adjacent_chain.png) | 2 | 2,3–3,4 | 4 | — | adjacent chain |
+| 3 | 2g3 | ![](diagrams/2g3_mixed_2344.png) | 2 | 2,3–4,4 | 4 | — | mixed |
+| 4 | 2g4 | ![](diagrams/2g4_double_opposite.png) | 2 | 1,1–3,3 | 4 | — | double opposite |
+| 5 | 2g5 | ![](diagrams/2g5_mixed_1334.png) | 2 | 1,3–3,4 | 4 | — | mixed |
+| 6 | 2g6 | ![](diagrams/2g6_one_per_edge.png) | 2 | 1,2–3,4 | 4 | — | one per edge |
+| 7 | 3v1 | ![](diagrams/3v1_tgv_nondeg.png) | 3 | 1,3,4 | 3 | 3 | TGV non-degenerate |
+| 8 | 3v2 | ![](diagrams/3v2_tgv_degen23.png) | 3 | 1,3,3 | 3 | 3 | TGV Δ₂₃=0 |
+| 9 | 3v3 | ![](diagrams/3v3_tgv_degen23.png) | 3 | 3,4,4 | 3 | 3 | TGV Δ₂₃=0 |
+| 10 | 3v4 | ![](diagrams/3v4_tgv_degen12.png) | 3 | 3,3,4 | 3 | 3 | TGV Δ₁₂=0 |
 
 ## File Inventory
 
