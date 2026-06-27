@@ -6,10 +6,10 @@ Usage:
 
     # List all IDs
     print(cj_pure_J.IDS)
-    # → ['I_(98)', 'I_(39)', ...]
+    # → ['2g1', '2g2', ...]
 
     # Access one integral
-    J = cj_pure_J.INTEGRALS['I_(39)']
+    J = cj_pure_J.INTEGRALS['2g2']
     print(J['J_plain'])
     # → 'x2*z * (-x2*(1 - x1) + i0)**(-1 + eps) * ...'
 
@@ -57,8 +57,8 @@ META = {
 
 _ALL_DATA = [
     {
-        "id": "I_(98)",
-        "diagram": "diagrams/I98_double_adjacent.png",
+        "id": "2g1",
+        "diagram": "diagrams/2g1_double_adjacent.png",
         "label": "2-gluon, edges (3,3)-(4,4) (double adjacent pair)",
         "n_gluons": 2,
         "n_x": 4,
@@ -80,8 +80,8 @@ _ALL_DATA = [
         "i0_prescription": "+i0",
     },
     {
-        "id": "I_(39)",
-        "diagram": "diagrams/I39_adjacent_chain.png",
+        "id": "2g2",
+        "diagram": "diagrams/2g2_adjacent_chain.png",
         "label": "2-gluon, edges 2,3-3,4 (adjacent chain)",
         "n_gluons": 2,
         "n_x": 4,
@@ -102,8 +102,8 @@ _ALL_DATA = [
         "i0_prescription": "+i0",
     },
     {
-        "id": "I_(31)",
-        "diagram": "diagrams/I31_mixed_2344.png",
+        "id": "2g3",
+        "diagram": "diagrams/2g3_mixed_2344.png",
         "label": "2-gluon, edges 2,3-4,4 (mixed)",
         "n_gluons": 2,
         "n_x": 4,
@@ -125,8 +125,8 @@ _ALL_DATA = [
         "i0_prescription": "+i0",
     },
     {
-        "id": "I_(58)",
-        "diagram": "diagrams/I58_double_opposite.png",
+        "id": "2g4",
+        "diagram": "diagrams/2g4_double_opposite.png",
         "label": "2-gluon, edges 1,1-3,3 (double opposite)",
         "n_gluons": 2,
         "n_x": 4,
@@ -150,8 +150,8 @@ _ALL_DATA = [
         "i0_prescription": "+i0",
     },
     {
-        "id": "I_(14)",
-        "diagram": "diagrams/I14_mixed_1334.png",
+        "id": "2g5",
+        "diagram": "diagrams/2g5_mixed_1334.png",
         "label": "2-gluon, edges 1,3-3,4 (mixed)",
         "n_gluons": 2,
         "n_x": 4,
@@ -173,8 +173,8 @@ _ALL_DATA = [
         "i0_prescription": "+i0",
     },
     {
-        "id": "I_(11)",
-        "diagram": "diagrams/I11_one_per_edge.png",
+        "id": "2g6",
+        "diagram": "diagrams/2g6_one_per_edge.png",
         "label": "2-gluon, edges 1,2-3,4 (one per edge)",
         "n_gluons": 2,
         "n_x": 4,
@@ -198,8 +198,8 @@ _ALL_DATA = [
     },
     # ---- 3-gluon TGV integrals (α-simplex + x-hypercube) ----
     {
-        "id": "I_(40)",
-        "diagram": "diagrams/I40_tgv_nondeg.png",
+        "id": "3v1",
+        "diagram": "diagrams/3v1_tgv_nondeg.png",
         "label": "3-gluon TGV, edges 1,3,4 (non-degenerate)",
         "n_gluons": 3,
         "n_x": 3,
@@ -231,8 +231,8 @@ _ALL_DATA = [
         "alpha_constraint": "a1 + a2 + a3 = 1",
     },
     {
-        "id": "I_(51)",
-        "diagram": "diagrams/I51_tgv_degen23.png",
+        "id": "3v2",
+        "diagram": "diagrams/3v2_tgv_degen23.png",
         "label": "3-gluon TGV, edges 1,3,3 (degenerate Δ23=0)",
         "n_gluons": 3,
         "n_x": 3,
@@ -260,8 +260,8 @@ _ALL_DATA = [
         "alpha_constraint": "a1 + a2 + a3 = 1",
     },
     {
-        "id": "I_(93)",
-        "diagram": "diagrams/I93_tgv_degen23.png",
+        "id": "3v3",
+        "diagram": "diagrams/3v3_tgv_degen23.png",
         "label": "3-gluon TGV, edges 3,4,4 (degenerate Δ23=0)",
         "n_gluons": 3,
         "n_x": 3,
@@ -286,8 +286,8 @@ _ALL_DATA = [
         "alpha_constraint": "a1 + a2 + a3 = 1",
     },
     {
-        "id": "I_(95)",
-        "diagram": "diagrams/I95_tgv_degen12.png",
+        "id": "3v4",
+        "diagram": "diagrams/3v4_tgv_degen12.png",
         "label": "3-gluon TGV, edges 3,3,4 (degenerate Δ12=0)",
         "n_gluons": 3,
         "n_x": 3,
