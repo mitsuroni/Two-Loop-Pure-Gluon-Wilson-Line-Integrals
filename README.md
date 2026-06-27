@@ -1,4 +1,4 @@
-# 10 Two-Loop Pure-Gluon Wilson Line Integrals — J only
+# 10 Two-Loop Pure-Gluon Wilsonloop Integrals 
 
 Shared 2026-06-27 with collaborators for verification and CAS evaluation.
 
